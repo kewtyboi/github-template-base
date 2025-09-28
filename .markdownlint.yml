@@ -1,0 +1,15 @@
+# Markdownlint configuration
+# See: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
+# Disable line length rule as it's handled by Prettier
+MD013: false
+
+# Allow duplicate headings in different sections
+MD024:
+  allow_different_nesting: true
+
+# Allow inline HTML for necessary cases
+MD033: false
+
+# Allow bare URLs in angle brackets
+MD034: false
